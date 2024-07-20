@@ -3,3 +3,15 @@ image:
 
 port: 80
 component: frontend
+
+### Connecting ingress to frontend we need below commands it is available in roboshop-kuberenets ---> Values.yaml file
+ingress:
+  enabled: true
+  className: ""
+  annotations: {}
+  hosts:
+    - host: www.devop73.com
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+  tls: []
