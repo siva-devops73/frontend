@@ -10,7 +10,7 @@ ingress:
   className: "nginx"
   annotations: {}
   hosts:
-    - host: www.devop73.com
+    - host: www.devop73.store
       paths:
         - path: /
           pathType: ImplementationSpecific
